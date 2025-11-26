@@ -1,0 +1,35 @@
+
+
+Key:
+
+A.Project structure
+
+1. Pages
+2. Reports
+3. Tests
+4. Utils -> all these should be created in a project structure
+
+B.Conftest.py 
+The naming conventions should match as it is. Why - it is a derivated from pytest
+
+C.Fixtures
+
+Fixtures a block of reusable code throught the Tests
+Scope we have several scopes in Fixtures, important one is Session 
+what is session ? - to put it simply, the fixtures is going to be utilised for entire test run 
+and finishes once all the tests have completed
+
+
+D. Requirements:
+it is an optioanl file
+pip freeze > requirements.txt -> here '>' means output
+if anyone wants to get the python package utilise -> pip install -r requirements.txt
+
+E. Recording:
+
+playwright codegen --> for Recording the tests
+
+
+
+
+
