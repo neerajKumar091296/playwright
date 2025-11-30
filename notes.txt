@@ -28,6 +28,8 @@ if anyone wants to get the python package utilise -> pip install -r requirements
 E. Recording:
 
 playwright codegen --> for Recording the tests
+This codegen will also generate code. if you select the visibility function
+
 
 
 

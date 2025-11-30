@@ -1,3 +1,11 @@
+'''
+Docstring for conftest
+
+This file should be named as conftest.py. This will capture the repeating code
+
+'''
+
+
 import pytest
 
 from playwright.sync_api import  sync_playwright
@@ -6,7 +14,7 @@ from playwright.sync_api import  sync_playwright
 def browser():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
-        yield browser
+        yield browser # Generator function
         browser.close()
 
 @pytest.fixture()
